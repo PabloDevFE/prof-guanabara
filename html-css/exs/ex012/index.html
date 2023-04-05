@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Inserindo vídeos hospedados localmente</h1>
+    <p>Este vídeo está hospedade no meu próprio servidor.</p>
+<!--Jeito mais simples-->
+    <video src="midias/videos/video-car.mp4" width="300" controls></video><br>
+
+<!--Jeito mais completo-->
+    <video width="300" poster="midias/imagens/foto-car.jpg" controls>
+        <source src="midias/videos/video-car.m4v" type="video/mp4">
+        <source src="midias/videos/video-car.webm" type="video/webm">
+        <source src="midias/videos/video-car.ogv" type="video/ogg">
+        <source src="midias/videos/video-car.mp4" type="video/mp4">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <blockquote>Porém vídeos hospedados localmente consomem <strong>MUITO</strong> trafego de rede!</blockquote>
+
+    <h1>Inserindo vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/CAYDRIbXFAc" title="YouTube video player" frameborder="10" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>Inserindo vídeos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/286767593?h=84e0c031b5&loop=1&portrait=0" width="600" height="400" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
