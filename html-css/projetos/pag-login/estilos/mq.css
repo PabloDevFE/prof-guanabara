@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/*Tablets*/
+
+@media screen and (min-width:768px) and (max-width: 1000px) {
+    body {
+        background-image: linear-gradient(to top, var(--verde),var(--lilas));
+    }
+
+    #login {
+        width: 90vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    div#img {
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 30%;
+    }
+
+}
+
+@media screen and (min-width: 1001px) {
+    body {
+        background-image: linear-gradient(to top, var(--verde),var(--lilas), #b30eff);
+    }
+    #login {
+        width: 1000px;
+        display: flex;
+        flex-direction: row;
+    }
+
+    div#img {
+        background-size: cover;
+        background-position: center center;
+        height: 100%;
+        width: 50%;
+    }
+
+}
