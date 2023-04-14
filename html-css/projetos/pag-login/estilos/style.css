@@ -46,6 +46,7 @@ div#img {
 }
 
 #formulario {
+    width: 100%;
     padding: 8px;
 }
 
@@ -53,4 +54,61 @@ div#img {
     font-size: 2em;
     text-align: center;
     margin-bottom: 10px;
+}
+
+#formulario > p {
+    text-align: center;
+}
+
+form {
+    padding-top: 30px;
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+#ilogin, #isenha {
+    border: 1.5px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    padding: 7px 6px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(243, 232, 243);
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.campo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.campo > label {
+    font-size: 12px;
+}
+
+#entrar {
+    background-color: var(--verde);
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #eeeeee;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+#esqueci {
+    background-color: #fff;
+    padding: 10px;
+    color: var(--verde);
+    border-color: var(--verde);
+    border-radius: 5px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+#entrar:hover, #esqueci:hover, label:hover {
+    cursor: pointer;
 }
