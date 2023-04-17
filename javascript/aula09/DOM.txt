@@ -1,0 +1,27 @@
+ARVORE DOM
+
+window >
+Location / document / history
+document > 
+html >
+head / body
+head > meta / title
+body > h1 / p / p / div
+p > strong
+
+SELECIONAR ELEMENTOS
+por Marca
+    getElemntsByTagName('elemento')
+
+por ID
+    getElemntById()
+
+por Nome
+    getElemntsByName()
+
+por Classe
+    getElemntsByClassName()
+
+por Seletor
+    querySelector()
+    querySelectorAll()

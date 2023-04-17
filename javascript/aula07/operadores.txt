@@ -1,0 +1,57 @@
+OPERADORES ARITIMETICOS
+
+5+2   =7
+5=2   =3
+5*2   =10
+5/2   =2.5
+5%2   =1 (resto da divisão)
+5**2  =25 (potencia)
+
+
+ORDEM DE PRECEDENCIA
+
+() >> ** >> * / % >> + -
+
+
+AUTO ATRIBUIÇÃO
+
+var n = 3
+n = n+4 
+n == 7
+
+OU
+
+n+=4
+n == 7 (pode ser usado com qualquer outro operador)
+
+OU
+
+n++
+n == 8 
+
+
+OPERADORES OPERACIONAIS 
+>   maior               5>2=true
+<   menor               7<4=false
+>=  maior ou igual      8>=8=true
+<=  menor ou igual      9<=7=true
+==  igual               5==5=true
+!=  diferente           4!=4=false
+
+OPERADOR IDENTIDADE (cê se tem o mesmo valor e o mesmo tipo)
+5 == '5' >> true 
+com operador identidade 5 === '5' >> false
+5 === 5 >> true
+
+
+OPERADORES LÓGICOS
+! negação (não)
+&& conjunção (e)
+|| disjunção (ou)
+não > e > ou 
+
+
+OPERADOR TERNÁRIO
+?:
+teste ? true : false
+média >= 7 ? "Aprovado" : "Reprovado"
