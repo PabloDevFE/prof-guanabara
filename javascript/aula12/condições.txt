@@ -1,0 +1,30 @@
+if (condição) {
+
+} eslse {
+
+}
+
+tipos de condição 
+simples: 
+if (condição) {
+    ture
+} 
+(se for falso nada é executado)
+
+composta:
+if (condição) {
+
+} eslse {
+
+}
+
+condições aninhadas:
+if (condição1) {
+    bloco1
+} eslse {
+    if(condição2) {
+        bloco2
+    } else {
+        bloco3
+    }
+}
