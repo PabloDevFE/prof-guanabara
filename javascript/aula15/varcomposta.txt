@@ -1,0 +1,13 @@
+Toda variavel composta é feita po um array(vetor), possui varios elementos e cada elemento possui um indice e um conteudo
+
+let num = [ 5, 8,4]
+    num 0 = 5
+    num 1 = 8
+    num 2 = 4
+
+num.length() //mostra o numero de elementos
+num.sort // coloca em ordem crescente
+num.push() // adiciona um valor no final
+num.indexOf() // procura um valor especificado no vetor
+
+a ordem do push e do sort pode alterar a saída

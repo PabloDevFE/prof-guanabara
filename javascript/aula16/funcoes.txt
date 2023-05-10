@@ -1,0 +1,9 @@
+são ações executas assim que são chamadas ou em decorrência de algum evento
+
+uma função pode receber parametros e retornar um resultado
+
+function ação(param) {
+
+    return res
+}
+ação(5) //param vai valer 5
